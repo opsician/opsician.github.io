@@ -17,6 +17,6 @@ const retrievePublicKey = async () => {
     if (error) {
       return error;
     }
-  
+    console.log(publicKey);
     return publicKey;
 };
